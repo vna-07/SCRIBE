@@ -8,7 +8,10 @@
     "start": "next start",
     "lint": "eslint",
     "test": "vitest run",
-    "test:watch": "vitest"
+    "test:watch": "vitest",
+    "db:generate": "drizzle-kit generate",
+    "db:push": "drizzle-kit push",
+    "db:studio": "drizzle-kit studio"
   },
   "dependencies": {
     "@libsql/client": "^0.18.0",
@@ -19,8 +22,8 @@
     "otplib": "^13.5.0",
     "pdf-lib": "^1.17.1",
     "qrcode": "^1.5.4",
-    "react": "19.2.8",
-    "react-dom": "19.2.8",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
     "zod": "^4.6.5"
   },
   "devDependencies": {
@@ -35,6 +38,5 @@
     "tailwindcss": "^4",
     "typescript": "^5",
     "vitest": "^5.0.3"
-  },
-  "packageManager": "pnpm@12.9.1"
+  }
 }

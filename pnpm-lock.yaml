@@ -191,10 +191,10 @@ importers:
         specifier: ^1.5.4
         version: 1.5.4
       react:
-        specifier: 19.2.8
+        specifier: ^19.2.0
         version: 19.2.8
       react-dom:
-        specifier: 19.2.8
+        specifier: ^19.2.0
         version: 19.2.8(react@19.2.8)
       zod:
         specifier: ^4.6.5
